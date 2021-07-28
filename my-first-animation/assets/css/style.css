@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 620px;
+    position: relative;
+    overflow: hidden;
+}
+.main div{
+    position: absolute;
+}
+.bg{
+    width: 100%;
+    height: 620px;
+    background-image: url("../img/arxafon.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.sky{
+    width: 100%;
+    height: 620px;
+    background-image: url("../img/sky.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.car1{
+    width: 300px;
+    height: 140px;
+    background-image: url("../img/masin1.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 45px;
+    left: -400px;
+    animation-name: car1;
+    animation-delay: 12s;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes car1{
+    from{
+        left: -400px;
+    }
+    to{
+        left: 100%;
+    }
+}
+.fly{
+    width: 500px;
+    height: 50px;
+    background-image: url("../img/fly-logo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 100px;
+    right: -800px;
+    animation-name: fly;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes fly{
+    from{
+        right: -800px;
+    }
+    to{
+        right: 100%;
+    }
+}
+.cloud1{
+    width: 130px;
+    height: 100px;
+    background-image: url("../img/bulud1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 15px;
+    right: -800px;
+    animation-name: cloud1;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cloud1{
+    from{
+        right: -800px;
+    }
+    to{
+        right: 100%;
+    }
+}
+.cloud2{
+    width: 130px;
+    height: 100px;
+    background-image: url("../img/bulud2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 22px;
+    right: -800px;
+    animation-name: cloud2;
+    animation-duration: 66s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cloud2{
+    from{
+        right: -800px;
+    }
+    to{
+        right: 100%;
+    }
+}
+.bird{
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/qush.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 230px;
+    left: -800px;
+    animation-name: bird;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes bird{
+    0% { top: 50px;}
+    25% {top: 100px ;}
+    50% {top: 150px ;}
+    75% {top: 100px ;}
+    85% {top: 170px ;}
+    95% {top: 200px ;}
+    100% {top: 280px ;}
+    from{
+        left: -800px;
+    }
+    to{
+        left: 100%;
+    }
+}
+.tree1{
+    width: 455px;
+    height: 480px;
+    bottom: -50px;
+    left: -150px;
+    background-image: url("../img/agac1.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.car2{
+    width: 400px;
+    height: 300px;
+    background-image: url("../img/masin2.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 25px;
+    right: -400px;
+    animation-name: car2;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes car2{
+    from{
+        right: -400px;
+    }
+    to{
+        right: 100%;
+    }
+}
+.man1{
+    width: 150px;
+    height: 170px;
+    background-image: url("../img/man1.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 10px;
+    left: -400px;
+    animation-name: man1;
+    animation-duration: 28s;
+    animation-timing-function: linear;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes man1{
+    from{
+        left: -400px;
+    }
+    to{
+        left: 100%;
+    }
+}
+.run-man{
+    width: 150px;
+    height: 170px;
+    background-image: url("../img/qacan-adam.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 3px;
+    left: -400px;
+    animation-name: run-man;
+    animation-duration: 8s;
+    animation-delay: 10s;
+    animation-timing-function: linear;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes run-man{
+    from{
+        left: -400px;
+    }
+    to{
+        left: 100%;
+    }
+}
+.qiz-velo{
+    width: 150px;
+    height: 125px;
+    background-image: url("../img/qiz-velosiped.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 165px;
+    right: -400px;
+    animation-name: qiz-velo;
+    animation-duration: 8s;
+    animation-delay: 15s;
+    animation-timing-function: linear;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes qiz-velo{
+    from{
+        right: -400px;
+    }
+    to{
+        right: 100%;
+    }
+}
+.car3{
+    width: 400px;
+    height: 300px;
+    background-image: url("../img/police-car.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 25px;
+    right: -400px;
+    animation-name: car3;
+    animation-duration: 3s;
+    animation-delay: 20s;
+    animation-timing-function: linear;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes car3{
+    from{
+        right: -400px;
+    }
+    to{
+        right: 100%;
+    }
+}
+
